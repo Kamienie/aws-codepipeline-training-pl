@@ -14,7 +14,7 @@ phases:
       - echo Running tests...
       - npm test
 
-      - aws cloudformation package --template-file stack.yaml --s3-bucket aws-training-codepipeline-374117739894-eu-central-1 --output-template-file packaged-template.yaml
+      - aws cloudformation package --template-file stack.yaml --s3-bucket aws-training-codepipeline-374117739894-eu-central-1 --output-template-file sam-stack.yaml
 
 artifacts:
   files:
